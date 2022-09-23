@@ -17,7 +17,7 @@ public class Afisha {
         WebElement movie = webDriver.findElement(By.xpath("a[href=/movie/]"));
         WebElement changeWorld = webDriver.findElement(By.xpath("//button[text()='Изменившие мир']"));
 
-        WebDriver.quit();
+       // WebDriver.quit();
     }
 
 }
